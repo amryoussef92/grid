@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: rgb(195, 248, 248);
+  padding: 0.5rem;
+  gap: 5px;
+}
+
+.grid-items {
+  background-color: white;
+
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.item1 {
+  grid-column: 1/-1;
+  background-color: rgb(32, 32, 34);
+  display: flex;
+}
+.item1 img {
+  width: 5rem;
+  float: left;
+}
+.navbar {
+  margin: 0px auto;
+  float: left;
+}
+.fa-solid {
+  margin: 40px;
+  float: right;
+}
+.item10 {
+  grid-column: 1/-1;
+
+  display: flex;
+  float: left;
+  justify-content: flex-start;
+  overflow: auto;
+}
+.item10 a {
+  padding-left: 100px;
+  padding-top: 10px;
+}
+.item2 {
+  grid-row: 3/6;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.bran {
+  width: 100%;
+}
+.brand {
+  background-color: blue;
+  padding: 5px 20px;
+  margin: 5px 20px;
+  border-radius: 20px;
+  text-shadow: 3px 3px 4px violet;
+  box-shadow: 3px 3px 9px gray;
+}
+.condition {
+  background-color: blue;
+  padding: 5px 20px;
+  margin: 5px 20px;
+  border-radius: 20px;
+  text-shadow: 3px 3px 4px violet;
+  box-shadow: 3px 3px 9px gray;
+}
+
+.check {
+  float: left;
+  margin-left: 5px;
+}
+.checkbran {
+  margin-top: 10px;
+}
+
+.rad {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.item3 {
+  grid-area: 3/2/3/4;
+}
+.best {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+}
+
+.best img {
+  margin: auto;
+  margin-top: 10px;
+}
+.card-title {
+  text-decoration-line: none;
+  font-size: large;
+  width: 100%;
+}
+.card-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+}
+.card-group .card {
+  display: flex;
+  margin: 2rem;
+  border-style: hidden;
+  background-color: #ccc;
+}
+.item4 {
+  grid-row: 3/4;
+  grid-column: 4/5;
+}
+.item5 {
+  width: 100%;
+}
+.item6 {
+  width: 100%;
+}
+a img {
+  width: 100%;
+  padding: 0%;
+  margin: 0;
+  height: 100%;
+}
+.item7 {
+  grid-column: 2/5;
+  width: 100%;
+}
+.offer {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: auto;
+}
+.item8 {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  padding: 0 10px;
+}
+
+.packcard-1 {
+  display: flex;
+  float: left;
+  gap: 1vh;
+}
+
+.packcard-2 {
+  display: flex;
+  float: left;
+
+  gap: 1vh;
+}
+figcaption {
+  font-size: 0.5rem;
+}
+.item9 {
+  grid-column: 1/-1;
+}
